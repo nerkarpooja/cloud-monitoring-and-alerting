@@ -34,7 +34,8 @@ Alerts are triggered when CPU usage crosses the defined threshold.
 
 ## Architecture Diagram
 
-![Architecture](architecture.png)
+![Architecture](screenshots/architecture.png)
+
 
 ---
 
@@ -50,7 +51,7 @@ Alerts are triggered when CPU usage crosses the defined threshold.
 
 ## Running Instances
 
-![EC2 Instances](ec2-running.png)
+![EC2 Instances](screenshots/ec2-running.png)
 
 ---
 
@@ -234,8 +235,7 @@ Both application servers were successfully scraped and showed UP status.
 
 ## Prometheus Targets
 
-![Prometheus Targets](prometheus-targets.png)
-
+![Prometheus Targets](screenshots/prometheus-targets.png)
 ---
 
 # Step 6 — Configure Grafana Datasource
@@ -267,7 +267,7 @@ Imported Node Exporter dashboard inside Grafana to monitor:
 
 ## Grafana Dashboard
 
-![Grafana Dashboard](grafana-dashboard.png)
+![Grafana Dashboard](screenshots/grafana-dashboard.png)
 
 ---
 
@@ -298,7 +298,7 @@ Trigger alert when CPU usage > 30%
 
 # Alert Rule Screenshot
 
-![Alert Rule](alert-rule.png)
+![Alert Rule](screenshots/alert-rule.png)
 
 ---
 
@@ -332,10 +332,10 @@ FIRING
 
 ## Firing Alert Screenshot
 
-![Firing Alert](firing-alert.png)
+
 
 ---
-
+![Firing Alert](screenshots/firing-alert.png)
 # Monitoring Features Implemented
 
 - Real-time infrastructure monitoring
